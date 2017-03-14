@@ -55,3 +55,11 @@
          - Main should be all on one row, with padding spaced better for a larger screen.
          - Just, ya know, try to make it look good! */
 /* @media only screen... */
+
+/*@media screen and (min-width: 700px) {
+  h1 {
+    color: yellow;
+    font-family: helvetica;
+    margin-top: 400px;
+    text-align: center;
+  }*/
