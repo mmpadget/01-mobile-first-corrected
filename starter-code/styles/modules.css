@@ -9,6 +9,11 @@
 }
 
 /* TODO: Add styles for the icon-menu class. It should be bigger, and off to the right. */
+div.icon-menu {
+  float: right;
+  /*font-size: 32px;*/
+  font-size: 2em;
+}
 
 .main-nav {
   padding: 0.1em;
@@ -56,10 +61,10 @@
          - Just, ya know, try to make it look good! */
 /* @media only screen... */
 
-/*@media screen and (min-width: 700px) {
-  h1 {
-    color: yellow;
+@media only screen and (min-width: 700px) {
+  .icon-menu {
+    /*color: yellow;
     font-family: helvetica;
     margin-top: 400px;
-    text-align: center;
-  }*/
+    text-align: center;*/
+  }
