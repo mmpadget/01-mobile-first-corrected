@@ -62,9 +62,32 @@ div.icon-menu {
 /* @media only screen... */
 
 @media only screen and (min-width: 700px) {
-  .icon-menu {
-    /*color: yellow;
-    font-family: helvetica;
-    margin-top: 400px;
-    text-align: center;*/
+
+  div.icon-menu{
+    display: none;
   }
+
+  ul {
+    display: inline;
+  }
+
+  header{
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  main{
+    width: 60%;
+    margin: 0 auto;
+
+  }
+
+  .main-nav ul {
+    display: block;
+  }
+
+  .main-nav li {
+    display: inline;
+    margin-right: 10px;
+  }
+}
